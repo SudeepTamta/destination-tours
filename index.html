@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Happy Travels - Tour and Travels Website</title>
+	<meta charset="utf-8">
+	<!-- THEME CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<!-- THEME ICONS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+	<!-- THEME FONTS -->
+	<link rel="stylesheet" type="text/css" href="font/font-family-roboto.css">
+
+	<!-- ANIMATION EFFECT -->
+	<link href="css/aos.css" rel="stylesheet">
+
+	<!-- SLICK SLIDER -->
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+</head>
+<body>
+	<header id="header">
+		<div class="banner bg" id="banner">
+			<div class="overlay-bg"></div>
+		<!-- TOP BAR -->
+		<div class="bg-white main_topbar"> 
+			<div class="container">
+				<div class="topbar">
+					<div class="col-lg-4 col-md-4 col-4">
+				 	<a class="d-lg-none d-xl-block" data-bs-toggle="collapse" href="#navbar_top" aria-expanded="false" aria-controls="collapseExample"><img src="./images/icons/align-left.svg" width="24">&nbsp; MENU</a>
+
+				 	<!-- <a class="d-none d-sm-block d-md-block" data-bs-toggle="collapse" href="#main_nav" aria-expanded="false" aria-controls="collapseExample"><img src="./images/icons/align-left.svg" width="24">&nbsp; MENU</a> -->
+
+
+				 	<!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+				      <span class="navbar-toggler-icon"></span>
+				    </button> -->
+				    </div>
+				    <div class="col-lg-4 col-md-4 col-4">
+					 	<div class="logo-brand">
+					 		<a href="index.html"><img src="./images/logo/logo.png" width="100"></a>
+					 	</div>
+				 	</div>
+
+				 	<div class="col-lg-4 col-md-4 col-4">
+					 	<div class="reg-btn-side">
+					 		<ul>
+					 			<li><a href="login.html">Login</a></li>
+					 			<li><a href="login.html">Register</a></li>
+					 			<li><a href=""><i class="bi bi-search"></i></a></li>
+					 		</ul>
+					 	</div>
+				 	</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- MAIN MENU -->
+		<nav id="navbar_top" class="navbar navbar-expand-lg bg-white collapse">
+			<div class="container">
+		 	 	<!-- <a class="navbar-brand" href="#">Brand</a> -->
+			  	
+			  	<div class="navbar-collapse" id="main_nav">
+					<ul class="navbar-nav m-auto text-center">
+						<li class="nav-item"><a class="nav-link" href="index.html"> HOME</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html"> ABOUT</a></li>
+				    	<li class="nav-item"><a class="nav-link" href="tour-view.html"> TOUR</a></li>
+				    	<li class="nav-item"><a class="nav-link" href=""> PACKAGE</a></li>
+				    	<li class="nav-item"><a class="nav-link" href="#"> FEATURE</a></li>
+				    	<li class="nav-item"><a class="nav-link" href="#"> CONTACT</a></li>
+				    	
+					</ul>
+			  	</div> <!-- navbar-collapse.// -->
+			</div> <!-- container-fluid.// -->
+		</nav>
+
+		<!-- BOOKING FORM SECTION -->
+		<div class="booking-form-section container">
+			
+			<div class="heavy-title">
+				<h1>How DO You Move?</h1>
+				<p>Explore / Embrace / Learn / Live</p>
+			</div>
+
+			<div class="booking-onscreen-form">
+				<div class="booking-form-controls">
+					<button class="btn btn-control active" onclick="openTab('b1');"><img src="./images/icons/air-transport.svg" width="24">&nbsp; Flight</button>
+					<button class="btn btn-control" onclick="openTab('b2');"><img src="./images/icons/car.svg" width="24">&nbsp; Transport</button>
+					<button class="btn btn-control" onclick="openTab('b3');"><img src="./images/icons/hotels.svg" width="24">&nbsp; Hotel</button>
+					<button class="btn btn-control" onclick="openTab('b4');"><img src="./images/icons/photographer.svg" width="24">&nbsp; Tours</button>
+					<button class="btn btn-control" onclick="openTab('b5');"><img src="./images/icons/protection.svg" width="24">&nbsp; Car Rent</button>
+				</div>
+				<div id="b1" class="container containerTab" role="tabpanel">
+					<div class="text-center">
+	            		<h3>FIND YOUR FLIGHT</h3>
+	            	</div>
+	                <form class="px-5">
+		                <div class="form-group row mb-4 justify-content-center text-center">
+		                    <div class="col-lg-2 col-md-6 col-sm-12 mb-2">
+		                    	<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+								<label class="form-check-label" for="flexRadioDefault1">
+								    One Way
+								</label>
+		                    </div>
+		                    <div class="col-lg-2 col-md-6 col-sm-12 mb-2">
+		                    	<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+								<label class="form-check-label" for="flexRadioDefault1">
+								    Round Trip
+								</label>
+		                    </div>
+		                    <div class="col-lg-2 col-md-6 col-sm-12 mb-2">
+		                    	<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+								<label class="form-check-label" for="flexRadioDefault1">
+								    Multiple Cities
+								</label>
+		                    </div>
+		                </div>
+		                <div class="form-group row align-items-end justify-content-center">
+		                	<div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+		                		<label>Where do you want to go?</label>
+		                		<input type="text" class="form-control" name="">
+		                	</div>
+		                	<div class="col-lg-2 col-md-3 col-sm-12 mb-2">
+		                		<label>Check In</label>
+		                		<input type="date" class="form-control" name="">
+		                	</div>
+		                	<div class="col-lg-2 col-md-3 col-sm-12 mb-2">
+		                		<label>Check Out</label>
+		                		<input type="date" class="form-control" placeholder="Calender">
+		                		<!-- <input type="text" class="form-control" placeholder="🔍   Search" name="search"> -->
+		                	</div>
+		                	<div class="col-lg-1 col-md-3 col-sm-12 mb-2">
+		                		<label>Adult</label>
+		                		<select class="form-control">
+		                			<option>1</option>
+		                			<option>2</option>
+		                			<option>3</option>
+		                			<option>4</option>
+		                		</select>
+		                	</div>
+		                	<div class="col-lg-1 col-md-3 col-sm-12 mb-2">
+		                		<label>Kids</label>
+		                		<select class="form-control">
+		                			<option>1</option>
+		                			<option>2</option>
+		                			<option>3</option>
+		                			<option>4</option>
+		                		</select>
+		                	</div>
+		                	<div class="col-lg-3 col-md-3 col-sm-12 mb-2">
+		                		<button class="btn btn-main"><img src="./images/icons/next.svg" width="24">&nbsp; Search now</button>
+		                		<!-- <input type="button" class="btn btn-main" value="Search now" name=""> -->
+		                	</div>
+		                </div>
+	                </form>
+	            </div>
+	            <div id="b2" class="container containerTab" role="tabpanel" style="display: none;">
+					<div class="text-center">
+	            		<h3>FIND TRANSPORT</h3>
+	            	</div>
+	                <form class="px-5">
+		                <div class="form-group row mb-4 justify-content-center text-center">
+		                    <div class="col-lg-2 col-md-6 col-sm-12 mb-2">
+		                    	<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+								<label class="form-check-label" for="flexRadioDefault1">
+								    One Way
+								</label>
+		                    </div>
+		                    <div class="col-lg-2 col-md-6 col-sm-12 mb-2">
+		                    	<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+								<label class="form-check-label" for="flexRadioDefault1">
+								    Round Trip
+								</label>
+		                    </div>
+		                    <div class="col-lg-2 col-md-6 col-sm-12 mb-2">
+		                    	<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+								<label class="form-check-label" for="flexRadioDefault1">
+								    Multiple Cities
+								</label>
+		                    </div>
+		                </div>
+		                <div class="form-group row align-items-end justify-content-center">
+		                	<div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+		                		<label>Where do you want to go?</label>
+		                		<input type="text" class="form-control" name="">
+		                	</div>
+		                	<div class="col-lg-3 col-md-3 col-sm-12 mb-2">
+		                		<label>Pickup Date</label>
+		                		<input type="date" class="form-control" name="">
+		                	</div>
+		                	
+		                	<div class="col-lg-1 col-md-3 col-sm-12 mb-2">
+		                		<label>Adult</label>
+		                		<select class="form-control">
+		                			<option>1</option>
+		                			<option>2</option>
+		                			<option>3</option>
+		                			<option>4</option>
+		                		</select>
+		                	</div>
+		                	<div class="col-lg-1 col-md-3 col-sm-12 mb-2">
+		                		<label>Kids</label>
+		                		<select class="form-control">
+		                			<option>1</option>
+		                			<option>2</option>
+		                			<option>3</option>
+		                			<option>4</option>
+		                		</select>
+		                	</div>
+		                	<div class="col-lg-3 col-md-3 col-sm-12 mb-2">
+		                		<button class="btn btn-main"><img src="./images/icons/next.svg" width="24">&nbsp; Search now</button>
+		                		<!-- <input type="button" class="btn btn-main" value="Search now" name=""> -->
+		                	</div>
+		                </div>
+	                </form>
+	            </div>
+	            <div id="b3" class="container containerTab" role="tabpanel" style="display: none">
+					<div class="text-center">
+	            		<h3>FIND HOTEL</h3>
+	            	</div>
+	                <form class="px-5">
+		                <!-- <div class="form-group row mb-4">
+		                    <div class="col-lg-4 col-md-6 col-sm-12 text-end mb-2">
+		                    	<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+								<label class="form-check-label" for="flexRadioDefault1">
+								    One Way
+								</label>
+		                    </div>
+		                    <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
+		                    	<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+								<label class="form-check-label" for="flexRadioDefault1">
+								    Round Trip
+								</label>
+		                    </div>
+		                    <div class="col-lg-4 col-md-6 col-sm-12 text-start mb-2">
+		                    	<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+								<label class="form-check-label" for="flexRadioDefault1">
+								    Multiple Cities
+								</label>
+		                    </div>
+		                </div> -->
+		                <div class="form-group row align-items-end">
+		                	<div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+		                		<label>Where do you want to go?</label>
+		                		<input type="text" class="form-control" name="">
+		                	</div>
+		                	<div class="col-lg-2 col-md-3 col-sm-12 mb-2">
+		                		<label>Check In</label>
+		                		<input type="date" class="form-control" name="">
+		                	</div>
+		                	<div class="col-lg-2 col-md-3 col-sm-12 mb-2">
+		                		<label>Check Out</label>
+		                		<input type="date" class="form-control" placeholder="Calender">
+		                		<!-- <input type="text" class="form-control" placeholder="🔍   Search" name="search"> -->
+		                	</div>
+		                	<div class="col-lg-1 col-md-3 col-sm-12 mb-2">
+		                		<label>Adult</label>
+		                		<select class="form-control">
+		                			<option>1</option>
+		                			<option>2</option>
+		                			<option>3</option>
+		                			<option>4</option>
+		                		</select>
+		                	</div>
+		                	<div class="col-lg-1 col-md-3 col-sm-12 mb-2">
+		                		<label>Kids</label>
+		                		<select class="form-control">
+		                			<option>1</option>
+		                			<option>2</option>
+		                			<option>3</option>
+		                			<option>4</option>
+		                		</select>
+		                	</div>
+		                	<div class="col-lg-3 col-md-3 col-sm-12 mb-2">
+		                		<button class="btn btn-main"><img src="./images/icons/next.svg" width="24">&nbsp; Search now</button>
+		                		<!-- <input type="button" class="btn btn-main" value="Search now" name=""> -->
+		                	</div>
+		                </div>
+	                </form>
+	            </div>
+	            <div id="b4" class="container containerTab" role="tabpanel" style="display: none">
+					<div class="text-center">
+	            		<h3>FIND TOURS</h3>
+	            	</div>
+	                <form class="px-5">
+		                <!-- <div class="form-group row mb-4">
+		                    <div class="col-lg-4 col-md-6 col-sm-12 text-end mb-2">
+		                    	<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+								<label class="form-check-label" for="flexRadioDefault1">
+								    One Way
+								</label>
+		                    </div>
+		                    <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
+		                    	<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+								<label class="form-check-label" for="flexRadioDefault1">
+								    Round Trip
+								</label>
+		                    </div>
+		                    <div class="col-lg-4 col-md-6 col-sm-12 text-start mb-2">
+		                    	<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+								<label class="form-check-label" for="flexRadioDefault1">
+								    Multiple Cities
+								</label>
+		                    </div>
+		                </div> -->
+		                <div class="form-group row align-items-end justify-content-center">
+		                	<div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+		                		<label>Where do you want to go?</label>
+		                		<input type="text" class="form-control" name="">
+		                	</div>
+		                	<div class="col-lg-3 col-md-3 col-sm-12 mb-2">
+		                		<label>Start Date</label>
+		                		<input type="date" class="form-control" name="">
+		                	</div>
+		                	<!-- <div class="col-lg-2 col-md-3 col-sm-12 mb-2">
+		                		<label>Check Out</label>
+		                		<input type="date" class="form-control" placeholder="Calender">
+		                	</div> -->
+		                	<div class="col-lg-1 col-md-3 col-sm-12 mb-2">
+		                		<label>Adult</label>
+		                		<select class="form-control">
+		                			<option>1</option>
+		                			<option>2</option>
+		                			<option>3</option>
+		                			<option>4</option>
+		                		</select>
+		                	</div>
+		                	<div class="col-lg-1 col-md-3 col-sm-12 mb-2">
+		                		<label>Kids</label>
+		                		<select class="form-control">
+		                			<option>1</option>
+		                			<option>2</option>
+		                			<option>3</option>
+		                			<option>4</option>
+		                		</select>
+		                	</div>
+		                	<div class="col-lg-3 col-md-3 col-sm-12 mb-2">
+		                		<button class="btn btn-main"><img src="./images/icons/next.svg" width="24">&nbsp; Search now</button>
+		                		<!-- <input type="button" class="btn btn-main" value="Search now" name=""> -->
+		                	</div>
+		                </div>
+	                </form>
+	            </div>
+	            <div id="b5" class="container containerTab" role="tabpanel" style="display: none">
+					<div class="text-center">
+	            		<h3>FIND CAR</h3>
+	            	</div>
+	                <form class="px-5">
+		                <!-- <div class="form-group row mb-4">
+		                    <div class="col-lg-4 col-md-6 col-sm-12 text-end mb-2">
+		                    	<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+								<label class="form-check-label" for="flexRadioDefault1">
+								    One Way
+								</label>
+		                    </div>
+		                    <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
+		                    	<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+								<label class="form-check-label" for="flexRadioDefault1">
+								    Round Trip
+								</label>
+		                    </div>
+		                    <div class="col-lg-4 col-md-6 col-sm-12 text-start mb-2">
+		                    	<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+								<label class="form-check-label" for="flexRadioDefault1">
+								    Multiple Cities
+								</label>
+		                    </div>
+		                </div> -->
+		                <div class="form-group row align-items-end justify-content-center">
+		                	<div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+		                		<label>Where do you want to go?</label>
+		                		<input type="text" class="form-control" name="">
+		                	</div>
+		                	<div class="col-lg-2 col-md-3 col-sm-12 mb-2">
+		                		<label>Start Date</label>
+		                		<input type="date" class="form-control" name="">
+		                	</div>
+		                	<div class="col-lg-2 col-md-3 col-sm-12 mb-2">
+		                		<label>End Date</label>
+		                		<input type="date" class="form-control" placeholder="Calender">
+		                	</div>
+		                	<div class="col-lg-2 col-md-3 col-sm-12 mb-2">
+		                		<label>No. of Car</label>
+		                		<select class="form-control">
+		                			<option>1</option>
+		                			<option>2</option>
+		                			<option>3</option>
+		                			<option>4</option>
+		                		</select>
+		                	</div>
+		                	<!-- <div class="col-lg-1 col-md-3 col-sm-12 mb-2">
+		                		<label>Kids</label>
+		                		<select class="form-control">
+		                			<option>1</option>
+		                			<option>2</option>
+		                			<option>3</option>
+		                			<option>4</option>
+		                		</select>
+		                	</div> -->
+		                	<div class="col-lg-3 col-md-3 col-sm-12 mb-2">
+		                		<button class="btn btn-main"><img src="./images/icons/next.svg" width="24">&nbsp; Search now</button>
+		                		<!-- <input type="button" class="btn btn-main" value="Search now" name=""> -->
+		                	</div>
+		                </div>
+	                </form>
+	            </div>
+			</div>
+		</div>
+			
+		</div>
+	</header>
+	<!-- // HEADER AND BANNER END -->
+
+	<!-- ABOUT SECTION -->
+	<section id="about_section">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-6" data-aos="fade-right">
+					<div class="title-heading">
+						<h2>We are happy travels</h2>
+						<span class="line"></span><img src="./images/icons/tourist.svg" width="32">
+					</div>
+					<p class="mb-4">Our founding mission was to be the world’s best travel dealmakers, and that has not changed. And it lets us fulfill Happy Travels purpose: to help everyone experience the moments that matter.</p>
+					<div class="we-list row mb-4">
+						<div class="col-md-6">
+						<ul class="p-0">
+							<li><img src="./images/icons/long-arrow-right.svg" width="24">&nbsp; First Class Flights</li>
+							<li><img src="./images/icons/long-arrow-right.svg" width="24">&nbsp; 5 Star Accommodations</li>
+							<li><img src="./images/icons/long-arrow-right.svg" width="24">&nbsp; Inclusive Packages</li>
+							<li><img src="./images/icons/long-arrow-right.svg" width="24">&nbsp; Latest Model Vehicles</li>
+						</ul>
+						</div>
+						<div class="col-md-6">
+						<ul class="p-0">
+							<li><img src="./images/icons/long-arrow-right.svg" width="24">&nbsp; Hand Picked Hotels</li>
+							<li><img src="./images/icons/long-arrow-right.svg" width="24">&nbsp; Accesibility Management</li>
+							<li><img src="./images/icons/long-arrow-right.svg" width="24">&nbsp; 10 Language Available</li>
+							<li><img src="./images/icons/long-arrow-right.svg" width="24">&nbsp; +120 Premium City Tours</li>
+						</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<button class="btn btn-main">Book now</button>
+						</div>
+						<div class="col-md-6">
+							<button class="btn btn-outline">Read More</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 d-lg-block d-none" data-aos="fade-left">
+					<div class="image-about">
+						<img class="" src="./images/tourist.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+	<!-- //ABOUT SECTION END -->
+
+	<!-- AWESOME TOURS SECTION -->
+	<section id="awesome_tours">
+		<div id="color_overlay"></div>
+		<div class="container position-relative">
+			<p class="m-0">FIND AND GO</p>
+			<div class="title-heading">
+
+				<h2>Awesome Tours</h2>
+				<span class="line"></span><img src="./images/icons/tourist.svg" width="32">
+			</div>
+			<div class="tours-responsive mb-4" data-aos="fade-right">
+				<div class="explore_services">
+					<div class="tours-card">
+						<div class="tours-card-image">
+							<div id="tour_overlay"></div>
+							<img src="./images/tours/tour1.jpg" class="image">
+							<div class="tour-name">
+								<a href="tour-view.html"><h3>Goa City</h3></a>
+							</div>
+						</div>
+						<div class="tours-card-content">
+							<h2>₹ 3500 </h2>
+							<small>3 Days 2 Night</small>
+							<p class="mt-3 truncate-overflow">Water, sunset, adventures and partying must have been the things that would have crossed.</p>
+							<div class="row">
+								<div class="col-md-6 mb-2">
+									<a href="tour-view.html"><button class="btn btn-dark">Book Now</button></a>
+								</div>
+								<div class="col-md-6 mb-2">
+									<button class="btn btn-dark">Add To List</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="explore_services">
+					<div class="tours-card">
+						<div class="tours-card-image">
+							<div id="tour_overlay"></div>
+							<img src="./images/tours/tour2.jpg" class="image">
+							<div class="tour-name">
+								<a href="tour-view.html"><h3>Manali</h3></a>
+							</div>
+						</div>
+						<div class="tours-card-content">
+							<h2>₹ 5500 </h2>
+							<small>3 Days 2 Night</small>
+							<p class="mt-3 truncate-overflow">Nestled on the banks of River Beas, Manali will take your breath away with its snow-kissed peaks, lush valleys and heart-pumping adventure experiences in the heart of Himalayas.</p>
+							<div class="row">
+								<div class="col-md-6 mb-2">
+									<a href="tour-view.html"><button class="btn btn-dark">Book Now</button></a>
+								</div>
+								<div class="col-md-6 mb-2">
+									<button class="btn btn-dark">Add To List</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="explore_services">
+					<div class="tours-card">
+						<div class="tours-card-image">
+							<div id="tour_overlay"></div>
+							<img src="./images/tours/tour3.jpg" class="image">
+							<div class="tour-name">
+								<a href="tour-view.html"><h3>Jaipur</h3></a>
+							</div>
+						</div>
+						<div class="tours-card-content">
+							<h2>₹ 4500 </h2>
+							<small>3 Days 2 Night</small>
+							<p class="mt-3 truncate-overflow">Fondly known as the ‘Pink City’ and now declared as a UNESCO World Heritage Site, Jaipur’s historic forts, majestic palaces and ancient temples make it a perfect royal getaway in the heart of Aravallis.</p>
+							<div class="row">
+								<div class="col-md-6 mb-2">
+									<a href="tour-view.html"><button class="btn btn-dark">Book Now</button></a>
+								</div>
+								<div class="col-md-6 mb-2">
+									<button class="btn btn-dark">Add To List</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center mb-4">
+				<div class="col-lg-3 col-md-6 col-12">
+					<button class="btn btn-outline">More tours</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- //AWESOME TOURS SECTION END  -->
+
+	<!-- GO EXPLORE -->
+	<section id="go_explore" >
+		<div id="dark_overlay"></div>
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-md-6" data-aos="fade-right">
+					<div class="go-explore-left">
+						<div class="play-btn">
+							<img src="./images/icons/play-button.svg" width="84">
+						</div>
+						<video autoplay="" loop="" width="100%" height="270">
+						  <source src="./videos/go2.mp4" type="video/mp4">
+						  <source src="./videos/go2.ogg" type="video/ogg">
+						<!-- Your browser does not support the video tag. -->
+						</video>
+						
+					</div>
+				</div>
+				<div class="col-md-6" data-aos="fade-left">
+					<div class="go-explore-right">
+						<h3>IT'S A <strong>BIG WORLD</strong> OUT THERE</h3>
+						<h2>GO EXPLORE</h2>
+						<p>It goes a long way in helping users plan corporate tickets, holiday packages, tickets, and a lot more. One of the most important features of this website is its cheap fare calendar that helps travellers select the best possible rates as per their budget, travel dates, etc.</p>
+						<div class="row justify-content-end">
+						 	<div class="col-lg-5 col-md-6 col-12">
+						 	<button class="btn btn-main">Read more</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- //GO EXPLORE END-->
+
+	<!-- RECOMMENDED HOTELS  -->
+	<section id="recommended_hotels" data-aos="fade-right">
+		<div class="container position-relative">
+			<p class="m-0 text-uppercase">Guranteed Quality</p>
+			<div class="title-heading">
+				<h2>Recommended Hotels</h2>
+				<span class="line"></span><img src="./images/icons/tourist.svg" width="32">
+			</div>
+			<div class="row mb-4">
+				<div class="col-md-6 px-4 mb-4">
+					<div class="recommended-hotel-cards">
+						<div class="row">
+							<div class="col-md-7 p-0">
+								<div class="hotel-card-left">
+									<div id="tour_overlay"></div>
+									<img src="./images/hotel/hotel1.jpg" class="image">
+									<div class="hotel-name">
+										<a href="hotel-view.html"><h3>Hawai Comfort</h3></a>
+										<img src="./images/icons/rating.svg" width="84">
+									</div>
+								</div>
+							</div>
+							<div class="col-md-5 p-0">
+								<div class="hotel-card-right">
+									<h2>₹ 6500 </h2>
+									<small>for person per night</small>
+									<p class="mt-3 truncate-overflow">This 5 Star Hotel in Goa is located in Dona Paula Beach. Full Address of property is The Hawaii Beach Road, Behind Dona Paula Police Out Post, Dona Paula </p>
+									<a href="hotel-view.html"><button class="btn btn-dark">Book Now</button></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 px-4 mb-4">
+					<div class="recommended-hotel-cards">
+						<div class="row">
+							<div class="col-md-7 p-0">
+								<div class="hotel-card-left">
+									<div id="tour_overlay"></div>
+									<img src="./images/hotel/hotel2.jpg" class="image">
+									<div class="hotel-name">
+										<a href="hotel-view.html"><h3>FORTUNE RESORT</h3></a>
+										<img src="./images/icons/rating2.svg" width="84">
+									</div>
+								</div>
+							</div>
+							<div class="col-md-5 p-0">
+								<div class="hotel-card-right">
+									<h2>₹ 3500 </h2>
+									<small>for person per night</small>
+									<p class="mt-3 truncate-overflow">This 4 Star Resort in Ooty is located in Stone House. Full Address of property is Selbourne Road, Ooty, Tamil Nadu. </p>
+									<a href="hotel-view.html"><button class="btn btn-dark">Book Now</button></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 px-4 mb-4">
+					<div class="recommended-hotel-cards">
+						<div class="row">
+							<div class="col-md-7 p-0">
+								<div class="hotel-card-left">
+									<div id="tour_overlay"></div>
+									<img src="./images/hotel/hotel4.jpg" class="image">
+									<div class="hotel-name">
+										<a href="hotel-view.html"><h3>ROYAL ORCHID RESORT</h3></a>
+										<img src="./images/icons/rating2.svg" width="84">
+									</div>
+								</div>
+							</div>
+							<div class="col-md-5 p-0">
+								<div class="hotel-card-right">
+									<h2>₹ 3000 </h2>
+									<small>for person per night</small>
+									<p class="mt-3 truncate-overflow">Location of the Hotel is Allalasandra (Allalasandra Bellary Road, Yelahanka,Near Jakkur Flying Club).</p>
+									<a href="hotel-view.html"><button class="btn btn-dark">Book Now</button></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 px-4 mb-4">
+					<div class="recommended-hotel-cards">
+						<div class="row">
+							<div class="col-md-7 p-0">
+								<div class="hotel-card-left">
+									<div id="tour_overlay"></div>
+									<img src="./images/hotel/hotel3.jpg" class="image">
+									<div class="hotel-name">
+										<a href="hotel-view.html"><h3>RAMADA ENCORE </h3></a>
+										<img src="./images/icons/rating2.svg" width="84">
+									</div>
+								</div>
+							</div>
+							<div class="col-md-5 p-0">
+								<div class="hotel-card-right">
+									<h2>₹ 4000 </h2>
+									<small>for person per night</small>
+									<p class="mt-3 truncate-overflow">This 4 Star Hotel in Bengaluru is located in Domlur Layout. Full Address of property is Ramada Encore Bangalore Domlur, Embassy Golf Link</p>
+									<a href="hotel-view.html"><button class="btn btn-dark">Book Now</button></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center mb-4">
+				<div class="col-lg-3 col-md-6 col-12">
+					<button class="btn btn-outline">More Hotels</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- // RECOMMENDED HOTELS END -->
+
+	<!-- TESTIMONIALS  -->
+	<section id="testimonials_section">
+		<div class="container position-relative"  data-aos="fade-left">
+			<p class="m-0 text-uppercase text-white">Relax and enjoy</p>
+			<div class="title-heading">
+				<h2 class="text-white">Happy Traveller</h2>
+				<span class="line"></span><img src="./images/icons/tourist.svg" width="32">
+			</div>
+			<div class="single-item">
+				<div class="testimonials">
+					<div class="col-md-6 col-lg-8 col-12 text-center">
+						<img src="./images/icons/user.jpg" width="100" class="mb-3 d-inline">
+						<p>"We really enjoyed everything, the hotels you chose were very nice and met our expectations. We had an excellent driver for the tour and a comfortable car to take us places. It was a very good experience discovering India and we would not hesitate to repeat such a trip. We also will recommend your agency warmly to whoever would like to do a trip to India. Thanks for everything."</p>
+						<p><b>A Hernandez & family, Switzerland</b></p>
+					</div>
+				</div>
+				<div class="testimonials">
+					<div class="col-md-6 col-lg-8 col-12 text-center">
+						<img src="./images/icons/user2.jpg" width="100" class="mb-3 d-inline">
+						<p>"We really enjoyed everything, the hotels you chose were very nice and met our expectations. We had an excellent driver for the tour and a comfortable car to take us places. It was a very good experience discovering India and we would not hesitate to repeat such a trip. We also will recommend your agency warmly to whoever would like to do a trip to India. Thanks for everything."</p>
+						<p><b>A Hernandez & family, Switzerland</b></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- // TESTIMONIALS END -->
+
+	<!-- NEWS AND UPDATES -->
+	<section id="news_update" >
+		<div class="container position-relative">
+			<p class="m-0 text-uppercase">EXPLORATIONAL STORIES</p>
+			<div class="title-heading">
+				<h2 class="">NEWS AND UPDATES</h2>
+				<span class="line"></span><img src="./images/icons/tourist.svg" width="32">
+			</div>
+			<div class="row">
+				<div class="col-md-6 mb-4" data-aos="fade-right">
+					<div class="news-update-left">
+						<h3>DON’T GIVE IN TO FEAR OR HOW TO TRAVEL TO A PLACE YOU KNOW.</h3>
+						<p><small>September 17, 2020 	| 	Admin</small></p>
+						<p>Rafting is an outdoor activity perfect for adventure enthusiasts who like to go through an adrenaline rush facing rough waters on a river while trying to stay afloat and go further on an inflatable raft.</p>
+						<p>Enjoy absolute thrill and adventure in this rafting journey on Zanskar River. Raft on the gushing waters of the river in Ladakh as you gaze through the timeless scenery and vibe in with the surroundings.</p>
+						<div class="row justify-content-start">
+							<div class="col-lg-4">
+								<button class="btn btn-main">Read More</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 mb-4" data-aos="fade-left">
+					<div class="news-update-left">
+						<img src="./images/banners/bg8.jpg" class="image">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--// NEWS AND UPDATES END -->
+
+	<!-- OFFER SECTION -->
+	<section id="offer_section">
+		<div id="dark_overlay"></div>
+		<div class="container position-relative mt-4">
+			<div class="row align-items-center">
+				<div class="col-lg-4 mb-3" data-aos="fade-right">
+					<div class="offer-left-sec">
+						<h2 class="color-primary">50% <span class="text-white">OFF</span></h2>
+						<h1 class="">SALE</h1>
+					</div>
+				</div>
+				<div class="col-lg-8 mb-3" data-aos="fade-left">
+					<div class="offer-right-sec">
+						<h3 class="text-white">Epic Journeys From The HAppy Travels</h3>
+						<p class="text-white">Land of diverse cultures, traditions and customs, India has been the birth place of Hinduism, Buddhism, Jainism and Sikhism. It is this land where one finds some of the beautiful cathedrals & huge mosques. In India religions flourished and prospered, thus giving ample opportunity for travelers seeking spiritual bliss. We have a wide variety of tours to take you through these destinations.</p>
+						<div class="row justify-content-start">
+							<div class="col-lg-4">
+								<button class="btn btn-main">Read More</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--// OFFER SECTION END -->
+
+	<!-- CONTACT FORM -->
+	<section id="contact_form">
+		<div id="color_overlay"></div>
+		<div class="container position-relative" data-aos="fade-right">
+			<div class="row justify-content-center">
+				<div class="col-lg-8 col-md-6 col-12">
+					<div class="contact-form-sec">
+						<form method="" action="">
+							<div class="text-center mb-4">
+								<h3>CONTACT US</h3>
+								<p class="fst-italic">Just pack and go! Let leave your travel plan to travel expert</p>
+							</div>
+							<div class="form-group">
+								<input type="text" name="name" class="form-control" placeholder="Enter Your Name">
+							</div>
+							<div class="form-group">
+								<input type="email" name="email" class="form-control" placeholder="Enter Your Email">
+							</div>
+							<div class="form-group">
+								<textarea class="form-control" placeholder="Enter Your Message"></textarea>
+							</div>
+							<div class="form-group row justify-content-center mt-4">
+								<div class="col-lg-3">
+									<button class="btn btn-dark-outline">Submit</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--// CONTACT FORM END -->
+
+	<!-- FOOTER SECTION -->
+	<footer id="footer">
+		<div id="white_overlay"></div>
+		<div class="container position-relative">
+			<div class="logo-footer mb-4 text-center">
+				<img src="./images/logo/logo.png" width="150">
+			</div>
+			<div class="row justify-content-center mb-4">
+				<div class="col-lg-3 col-md-6 col-12 mb-3">
+					<div class="footer-sec one">
+						<h3 class="mb-4">Contact Us</h3>
+						<ul class="mb-4">
+							<li><img src="./images/icons/location.svg" width="24">177-A Bleeker Street Subhash Nagar, Dehradun-248001, India.</li>
+							<li><img src="./images/icons/phone-call.svg" width="24"><a href="tel:9876543210">+91 9876-543-210</a></li>
+							<li><img src="./images/icons/mail.svg" width="24"><a href="mailto:info@happytravels.com">info@happytravels.com</a></li>
+						</ul>
+						<div class="news-letter-box">
+							<ul>
+								<li>
+									<input type="text" class="form-control" name="" placeholder="Email Address">
+									<button class="btn send-btn"><img src="./images/icons/paper-plane.svg" width="24"></button>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6 col-12 mb-3">
+					<div class="footer-sec">
+						<h3 class="mb-4">Book Now</h3>
+						<ul>
+							<li><a href="">Flights</a></li>
+							<li><a href="">Tours</a></li>
+							<li><a href="">Packages</a></li>
+							<li><a href="">Transports</a></li>
+							<li><a href="">Hotels</a></li>
+							<li><a href="">Car Rent</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6 col-12 mb-3">
+					<div class="footer-sec">
+						<h3 class="mb-4">Explore</h3>
+						<ul>
+							<li><a href="">Tour Goa</a></li>
+							<li><a href="">Tour Manali</a></li>
+							<li><a href="">Tour Shimla</a></li>
+							<li><a href="">Tour Srinagar</a></li>
+							<li><a href="">Tour Maldives</a></li>
+							<li><a href="">Tour Agra</a></li>
+							<li><a href="">Tour Mussoorie</a></li>
+							<li><a href="">Tour Ooty</a></li>
+							<li><a href="">Tour Coorg</a></li>
+							<li><a href="">Tour Covalam</a></li>
+							<li><a href="">Tour Bali</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6 col-12 mb-3">
+					<div class="footer-sec">
+						<h3 class="mb-4">About the site</h3>
+						<ul>
+							<li><a href="">Contact Us</a></li>
+							<li><a href="">Payment Security</a></li>
+							<li><a href="">Privacy Policy</a></li>
+							<li><a href="">User Agreement</a></li>
+							<li><a href="">Term Of Service</a></li>
+							<li><a href="">Visa Information</a></li>
+							<li><a href="">More Offices</a></li>
+							<li><a href="">Make a Payment</a></li>
+							<li><a href="">Report a Defect</a></li>
+							<li><a href="">Work From Home</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6 col-12 mb-3">
+					<div class="footer-sec">
+						<h3 class="mb-4">Important Links</h3>
+						<ul>
+							<li><a href="">Hotel in Jaipur</a></li>
+							<li><a href="">Hotel in Udaipur</a></li>
+							<li><a href="">Hotel in Pune</a></li>
+							<li><a href="">Hotel in Pondicherry</a></li>
+							<li><a href="">Hotel in Ooty</a></li>
+							<li><a href="">Hotel in Kodaikanal</a></li>
+							<li><a href="">Hotel in darjeeling</a></li>
+							<li><a href="">Hotel in Chandigarh</a></li>
+							<li><a href="">Hotel in Mount Abu</a></li>
+							<li><a href="">Hotel in Ahemdabad</a></li>
+							<li><a href="">Hotel in Kolkata</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center mb-4">
+				<div class="col-lg-4">
+					<div class="social-icons">
+						<ul>
+							<li><a href=""><img src="./images/icons/facebook.svg" width="32"></a></li>
+							<li><a href=""><img src="./images/icons/twitter.svg" width="32"></a></li>
+							<li><a href=""><img src="./images/icons/instagram.svg" width="32"></a></li>
+							<li><a href=""><img src="./images/icons/youtube.svg" width="32"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<p>&#169; copyright Happy Travels. All right reserved</p>
+			</div>
+		</div>
+	</footer>
+	<!--// FOOTER SECTION -->
+
+</body>
+<script type="" src="js/bootstrap.bundle.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/jquery.js"></script>
+<script src="slick/slick.min.js" type="text/javascript"></script>  
+<script>
+  AOS.init();
+</script>
+<script>
+	function toggle(){
+        var header = document.getElementById("header")
+        header.classList.toggle('active')
+    }
+
+    // window.addEventListener("scroll",function(){
+    // var header = document.querySelector("header");
+    //     header.classList.toggle("sticky", window.scrollY > 0)
+    // })
+
+    // BOOKING FORM JS
+    function openTab(tabName) {
+      var i, x;
+      x = document.getElementsByClassName("containerTab");
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+      }
+      document.getElementById(tabName).style.display = "block";
+    } 
+
+
+    // FIXED HEADER SECTION
+    document.addEventListener("DOMContentLoaded", function(){
+	  window.addEventListener('scroll', function() {
+	      if (window.scrollY > 50) {
+	        document.getElementById('navbar_top').classList.add('fixed-top');
+	        // add padding top to show content behind navbar
+	        navbar_height = document.querySelector('.navbar').offsetHeight;
+	        document.body.style.paddingTop = navbar_height + 'px';
+	      } else {
+	        document.getElementById('navbar_top').classList.remove('fixed-top');
+	         // remove padding top from body
+	        document.body.style.paddingTop = '0';
+	      } 
+	  });
+	}); 
+	// TOUR VIEW PAGE JS
+	function openTab(tabName) {
+      var i, x;
+      x = document.getElementsByClassName("containerTab");
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+      }
+      document.getElementById(tabName).style.display = "block";
+    } 
+</script>
+<script>
+	(function($) {
+    // we can now rely on $ within the safety of our "bodyguard" function
+    $(document).ready(function(){
+	// EXPLORE SECTION JS
+    $('.tours-responsive').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        },
+          {
+          breakpoint: 786,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+
+    // TESTIMONIALS
+    $('.single-item').slick({
+	  dots: true,
+	  autoplay:true,
+	  infinite: true,
+	  speed: 300,
+	  slidesToShow: 1,
+	  adaptiveHeight: true
+	});
+
+	// HEADER ACTIVE CLASS
+	$('.navbar-nav .nav-item').on('click', function() {
+	    $('.navbar-nav nav-item.active').removeClass('active');
+	    $(this).addClass('active');
+	});
+
+	$('.booking-form-controls .btn').on('click', function(){
+	    $('.booking-form-controls .btn.btn-control.active').removeClass('active');
+	    $(this).addClass('active');
+	});
+
+    });
+    
+
+
+    }) (jQuery);
+</script>
+</html>
