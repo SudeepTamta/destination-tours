@@ -1,0 +1,58 @@
+@media (max-width:600px){
+	
+}
+@media (max-width:768px){
+	
+	.tour-result-sort-by .select-wrapper {
+	    width: 100%;
+	    margin-bottom: 10px;
+	    margin-left: 0;
+	    padding: 0 10px;
+	}
+}
+
+@media (max-width:992px){
+	.booking-form-controls{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.btn.btn-control{
+		width: auto;
+	}
+	.go-explore-right {
+	    text-align: center;
+	}
+	.BYT-options {
+	    padding: 1em 1em 1em 1em;
+	    text-align: center;
+	}
+	.tour-result-sort-by .select-wrapper {
+	    width: 224px;
+		margin-bottom: 10px;
+		margin-left: 0;
+		padding: 0 10px;
+	}
+	.selection-bar {
+	    display: block;
+	    width: 100%;
+	    float: none;
+	}
+	.tour-result-sort-by label{width: 100%;
+margin-left: 0;
+padding-left: 0;
+text-align: center;}
+	.footer-sec{text-align: center;}
+}
+
+@media (max-width:1024px){
+	.tour-result-sort-by {
+	    display: table-cell;
+	    width: 100%;
+	}
+	.selection-bar {
+	   /* display: block;
+	    width: 100%;*/
+	    float: none;
+	}
+}
